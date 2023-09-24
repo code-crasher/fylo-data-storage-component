@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fylo data storage component </title>
+</head>
+<body>
+    <picture>
+        <source media="(min-width:768px)" srcset="images/bg-desktop.png">
+        <source media="(max-width:768px)" srcset="images/bg-mobile.png">
+           <img class="bg-img" src="images/bg-mobile.png" alt="">
+    </picture>
+    <div class="wrapper">
+        <div class="top">
+            <div>
+                <img class="logo" src="images/logo.svg" alt="logo">
+            </div>
+            <div class="showcase">
+                <div><img src="images/icon-document.svg" alt="document icon"></div>
+                <div><img src="images/icon-folder.svg" alt="folder icon"></div>
+                <div><img src="images/icon-upload.svg" alt="upload icon"></div>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>You've used <span class="text-bold">815 GB</span> of your storage</p>
+                <div class="form-group">
+                <div class="progress">
+                    <div class="progress-bar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="81.5%">
+                        <div class="progress-bar-indicator"></div>
+                    </div>
+                </div>
+                    <div class="small-text">
+                    <small>0 GB</small>
+                    <small>1000 GB</small>
+                    </div>
+                </div>
+            <div class="card">
+                <p><span class="large-text">185</span>GB LEFT</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
