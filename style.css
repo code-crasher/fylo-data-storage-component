@@ -49,7 +49,7 @@ svg{
 }
 .top{
     width: 300px;
-    height: 250px;
+    height: 150px;
     background-color:var(--dark-blue);
     border-top-right-radius: 70px;
     padding:2rem;
@@ -61,7 +61,7 @@ svg{
 .bottom{
     position: relative;
     width:300px;
-    height: 250px;
+    height: 130px;
     background-color:var(--dark-blue);
     margin-top:1rem ;
     display:grid;
@@ -90,7 +90,7 @@ svg{
     align-items: center;
     overflow: hidden;
     height:1rem;
-    width: 250px;
+    width: 130px;
     background-color:var(--very-dark-blue);
     padding:.125rem;
     border-radius: 50px;
@@ -159,17 +159,21 @@ svg{
         display:flex;
         gap:1rem;
     }
+    .top{
+        padding-top:3rem;
+    }
     .bottom{
         display:flex;
         flex-direction: column;
         align-items:flex-start;
-        padding:2rem;
+        padding:3rem;
         justify-content: flex-start;
         width:500px;
         place-items:left;
     }
     .progress{
         margin-top:1rem;
+        width: 300px;
     }
     .card{
         bottom:80%;
